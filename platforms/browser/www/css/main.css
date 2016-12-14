@@ -1,0 +1,150 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana, sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    padding: 5px 0;
+    margin: 0;
+}
+
+header h2 {
+    padding: 5px;
+    height: 35px;
+}
+
+header span.btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    float: right;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 20px;
+}
+
+header nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 0;
+    display: inline-block;
+    /*    padding: 1%;*/
+    width: 40%;
+    text-align: center;
+}
+
+main {
+    background-color: aliceblue;
+}
+
+.page {
+    display: none;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.active {
+    display: block;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 0px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+table {
+    margin: 20px 0;
+    width: 100%;
+    /*    border: 1;*/
+}
+
+table tr td {
+    width: 25%;
+    text-align: center;
+}
+
+.data-score {
+    background-color: cadetblue;
+}
+
+.data-head {
+    background-color: antiquewhite;
+}
+
+.data-body {
+    background-color: deepskyblue;
+}
+
+.data-body img{
+    display: block;
+    margin: auto;
+}
+
+.data-body td:nth-child(even){
+    width: 10%;
+}
+
+.data-body td:nth-child(odd){
+    width: 40%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+}

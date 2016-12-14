@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<!--    <link rel="stylesheet" type="text/css" href="css/index.css">-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/iconic-bootstrap.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h2 class="txt-center">Sport App
+        </h2> <span id="btn-reload" aria-hidden="true" class=" btn iconic iconic-reload"></span>
+        <nav>
+            <ul>
+                <!--<li id="btn-timetable" class="btn"><span aria-hidden="true" class="iconic iconic-calendar"></span> Timetable</li>-->
+                <li id="btn-score" class="btn"><span aria-hidden="true" class="iconic iconic iconic-thumb-up"></span> Score</li>
+                <li id="btn-standings" class="btn"><span aria-hidden="true" class="iconic iconic iconic-spreadsheet"></span> Standings </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="scores-div" class="page active">
+            <h3 class="txt-center">Score</h3>
+            <div id="scores"></div>
+        </div>
+        <div id="timetable-div" class="page">
+            <h3 class="txt-center">Timetable</h3>
+            <div id="timetable"></div>
+        </div>
+        <div id="standings-div" class="page ">
+            <h3 class="txt-center">Standings</h3>
+            <div id="standings"></div>
+        </div>
+    </main>
+    <footer>
+        <p> &copy;
+            <time datetime="2016">2016</time> Harsh Doshi</p>
+    </footer>
+    <script type="text/javascript" src="js/sport.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+{
+    "teams": [{
+            "id": 728
+            , "name": "Rising Pune Supergiants"
+        }
+, {
+            "id": 697
+            , "name": "Royal Challengers Bangalore"
+        }
+, {
+            "id": 790
+            , "name": "Gujarat Lions"
+        }
+, {
+            "id": 162
+            , "name": "Kolkata Knight Riders"
+        }
+]
+    , "scores": [{
+        "date": "2017-06-12"
+        , "games": [
+            {
+                "home": 728
+                , "away": 697
+                , "home_score": "182-5"
+                , "away_score": "92-5"
+            }
+            , {
+                "home": 790
+                , "away": 162
+                , "home_score": "65-7"
+                , "away_score": "64-5"
+            }
+    ]
+    }, {
+        "date": "2017-06-19"
+        , "games": [
+            {
+                "home": 728
+                , "away": 790
+                , "home_score": "50-1"
+                , "away_score": "171-5"
+            }
+            , {
+                "home": 697
+                , "away": 162
+                , "home_score": "109-2"
+                , "away_score": "109-3"
+            }
+    ]
+    }, {
+        "date": "2017-06-26"
+        , "games": [
+            {
+                "home": 728
+                , "away": 162
+                , "home_score": "71-3"
+                , "away_score": "176-1"
+            }
+            , {
+                "home": 697
+                , "away": 790
+                , "home_score": "189-7"
+                , "away_score": "176-2"
+            }
+    ]
+    }, {
+        "date": "2017-07-03"
+        , "games": [
+            {
+                "home": 697
+                , "away": 728
+                , "home_score": "161-1"
+                , "away_score": "192-5"
+            }
+            , {
+                "home": 162
+                , "away": 790
+                , "home_score": "130-2"
+                , "away_score": "101-5"
+            }
+    ]
+    }, {
+        "date": "2017-07-10"
+        , "games": [
+            {
+                "home": 790
+                , "away": 728
+                , "home_score": "43-3"
+                , "away_score": "49-4"
+            }
+            , {
+                "home": 162
+                , "away": 697
+                , "home_score": "51-7"
+                , "away_score": "61-1"
+            }
+    ]
+    }, {
+        "date": "2017-07-17"
+        , "games": [
+            {
+                "home": 162
+                , "away": 728
+                , "home_score": "98-5"
+                , "away_score": "139-2"
+            }
+            , {
+                "home": 790
+                , "away": 697
+                , "home_score": "137-1"
+                , "away_score": "94-3"
+            }
+    ]
+    }]
+}
